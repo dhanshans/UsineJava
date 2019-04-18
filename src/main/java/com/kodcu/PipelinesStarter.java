@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @ComponentScan
 public class PipelinesStarter {
-    
+
 
     public static void main(String[] args){
         SpringApplication.run(PipelinesStarter.class, args);
